@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Test Automation Suite" verbose="1" parallel="tests">
+
+    <test name="Feature" parallel="classes" thread-count="1">
+        <classes>
+            <class name="UiTests.someFeature.SomeTests"/>
+        </classes>
+    </test>
+
+</suite>
